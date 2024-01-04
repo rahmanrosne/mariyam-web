@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    background-color: aqua;
+    text-align: center;
+}
+h1:hover{
+    color: darksalmon;
+}
+h2{
+    background-color: rgb(127, 255, 127);
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+ul li{
+    padding-top: 0px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: chartreuse;
+    font-size: larger;
+}
+
+
+body{
+    background-color: rgb(80, 176, 255);
+}
+body:hover{
+    background: cadetblue;
+}
+a:hover{
+    color: rgb(123, 255, 0);
+    transition: 0.5 sec;
+}
+/* i{
+    padding-right: 10px;
+} */

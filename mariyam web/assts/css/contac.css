@@ -1,0 +1,43 @@
+tr{
+    border: 2px solid black;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+} 
+td{
+    border: 2px solid black;
+    padding: 10px;
+} 
+
+th{
+    border: 2px solid black; 
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+} 
+body{
+    background-image: url("../img/ab.jpg");
+}
+h2{
+text-align: center;
+}
+.m{
+    color: red;
+    font-size: 50px;
+}
+.i{
+    color: blue;
+    font-size: 30px;
+}
+.c{
+    color: rgb(1, 40, 1);
+}
+.m :hover{
+    font-size: 60px;
+}
+.i :hover{
+    font-size: 50px;
+}
